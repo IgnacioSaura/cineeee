@@ -9,6 +9,7 @@ filmsSvc.getFilms().then(function (res) {
 
 function addFilm(e, form) {
     e.preventDefault();
+    //Hola to bien
 
     // obtengo todos los datos del formulario
     var filmName = form.filmName.value;
